@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 const Testimonials = () => {
-    const [reviews, setReviews] = useState([]);
+const [reviews, setReviews] = useState([]);
 
     useEffect(()=>{
         fetch('reviews.json')
