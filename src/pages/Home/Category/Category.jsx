@@ -3,11 +3,11 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
-import slide1 from '../../../assets/home/slide1.jpg';
-import slide2 from '../../../assets/home/slide2.jpg';
-import slide3 from '../../../assets/home/slide3.jpg';
-import slide4 from '../../../assets/home/slide4.jpg';
-import slide5 from '../../../assets/home/slide5.jpg';
+import apple from '../../../assets/home/apple.jpg';
+import asus from '../../../assets/home/asus.jpg';
+import dell from '../../../assets/home/Dell.jpg';
+import hp from '../../../assets/home/hp.jpg';
+import lenovo from '../../../assets/home/lenovo.jpg';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 
 const Category = () => {
@@ -25,23 +25,23 @@ const Category = () => {
                 className="mySwiper mb-24"
             >
             <SwiperSlide>
-                <img src={slide1} alt="" />
+                <img src={hp} alt="" />
                 <h3 className='text-4xl uppercase text-center -mt-20 text-white'>HP</h3>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={slide2} alt="" />
+                <img src={dell} alt="" />
                 <h3 className='text-4xl uppercase text-center -mt-20 text-white'>Dell</h3>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={slide3} alt="" />
+                <img src={apple} alt="" />
                 <h3 className='text-4xl uppercase text-center -mt-20 text-white'>Apple</h3>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={slide4} alt="" />
+                <img src={lenovo} alt="" />
                 <h3 className='text-4xl uppercase text-center -mt-20 text-white'>Lenovo</h3>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={slide5} alt="" />
+                <img src={asus} alt="" />
                 <h3 className='text-4xl uppercase text-center -mt-20 text-white'>Asus</h3>
             </SwiperSlide>
       </Swiper>
