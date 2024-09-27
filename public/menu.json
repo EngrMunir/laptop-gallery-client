@@ -1,458 +1,388 @@
 [
     {
-        "_id": "642c155b2c4774f05c36eeaa",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "salad",
-        "price": 14.7
+      "id": "1",
+      "brand": "Apple",
+      "model": "MacBook Pro 16",
+      "category": "Laptop",
+      "price": 2499,
+      "rating": 4.8,
+      "description": "The MacBook Pro 16-inch model features a M2 Pro chip, 16GB RAM, and 512GB SSD storage.",
+      "display": "16-inch Retina",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "drinks",
-        "price": 14.7
+      "id": "2",
+      "brand": "Dell",
+      "model": "XPS 13",
+      "category": "Laptop",
+      "price": 1399,
+      "rating": 4.6,
+      "description": "Dell XPS 13 with Intel Core i7, 16GB RAM, and 1TB SSD is perfect for performance and portability.",
+      "display": "13.3-inch FHD+",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee7c",
-        "name": "Escalope de Veau",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
+      "id": "3",
+      "brand": "HP",
+      "model": "Omen 15",
+      "category": "Gaming Laptop",
+      "price": 1599,
+      "rating": 4.7,
+      "description": "HP Omen 15 is a gaming powerhouse with AMD Ryzen 7, 16GB RAM, 512GB SSD, and NVIDIA RTX 3060.",
+      "display": "15.6-inch FHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee88",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+      "id": "4",
+      "brand": "Lenovo",
+      "model": "ThinkPad X1 Carbon",
+      "category": "Laptop",
+      "price": 1699,
+      "rating": 4.9,
+      "description": "Lenovo ThinkPad X1 Carbon is a business laptop with Intel Core i7, 16GB RAM, and 1TB SSD for optimal productivity.",
+      "display": "14-inch UHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee7a",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
+      "id": "5",
+      "brand": "Asus",
+      "model": "ROG Strix G17",
+      "category": "Gaming Laptop",
+      "price": 1799,
+      "rating": 4.8,
+      "description": "Asus ROG Strix G17 features AMD Ryzen 9, 32GB RAM, 1TB SSD, and NVIDIA RTX 3070, designed for gaming enthusiasts.",
+      "display": "17.3-inch FHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee8c",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+      "id": "6",
+      "brand": "MSI",
+      "model": "GE76 Raider",
+      "category": "Gaming Laptop",
+      "price": 1899,
+      "rating": 4.5,
+      "description": "MSI GE76 Raider is equipped with Intel Core i9, 32GB RAM, and NVIDIA RTX 3080 for top-tier gaming performance.",
+      "display": "17.3-inch QHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee94",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "pizza",
-        "price": 12.5
+      "id": "7",
+      "brand": "Acer",
+      "model": "Predator Helios 300",
+      "category": "Gaming Laptop",
+      "price": 1499,
+      "rating": 4.6,
+      "description": "Acer Predator Helios 300 with Intel Core i7, 16GB RAM, and NVIDIA RTX 3070 delivers great gaming experience.",
+      "display": "15.6-inch FHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee9e",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
+      "id": "8",
+      "brand": "Microsoft",
+      "model": "Surface Laptop 5",
+      "category": "Laptop",
+      "price": 1299,
+      "rating": 4.7,
+      "description": "The Microsoft Surface Laptop 5 comes with Intel Core i5, 8GB RAM, and 256GB SSD for smooth everyday use.",
+      "display": "13.5-inch PixelSense",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36eea6",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "salad",
-        "price": 13.5
+      "id": "9",
+      "brand": "Apple",
+      "model": "MacBook Air M2",
+      "category": "Laptop",
+      "price": 1199,
+      "rating": 4.9,
+      "description": "MacBook Air with M2 chip, 8GB RAM, and 256GB SSD offers excellent performance in a lightweight design.",
+      "display": "13.6-inch Retina",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36eeaf",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "soup",
-        "price": 12.5
+      "id": "10",
+      "brand": "Razer",
+      "model": "Blade 15",
+      "category": "Gaming Laptop",
+      "price": 2199,
+      "rating": 4.8,
+      "description": "Razer Blade 15 is a premium gaming laptop with Intel Core i7, 16GB RAM, and NVIDIA RTX 3070 for fast gaming.",
+      "display": "15.6-inch QHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee89",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
+      "id": "11",
+      "brand": "HP",
+      "model": "Spectre x360",
+      "category": "Laptop",
+      "price": 1599,
+      "rating": 4.7,
+      "description": "HP Spectre x360 features Intel Core i7, 16GB RAM, and a convertible design for productivity and flexibility.",
+      "display": "13.3-inch OLED",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee8a",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+      "id": "12",
+      "brand": "Samsung",
+      "model": "Galaxy Book 3 Pro",
+      "category": "Laptop",
+      "price": 1699,
+      "rating": 4.6,
+      "description": "Samsung Galaxy Book 3 Pro is lightweight and powerful with Intel Core i7, 16GB RAM, and 512GB SSD.",
+      "display": "15.6-inch AMOLED",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee96",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 9.5
+      "id": "13",
+      "brand": "Dell",
+      "model": "G15 Gaming",
+      "category": "Gaming Laptop",
+      "price": 1349,
+      "rating": 4.5,
+      "description": "Dell G15 Gaming with Intel Core i7, 16GB RAM, and NVIDIA RTX 3050 Ti is a budget-friendly gaming laptop.",
+      "display": "15.6-inch FHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee81",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "offered",
-        "price": 10.5
+      "id": "14",
+      "brand": "Asus",
+      "model": "ZenBook Duo",
+      "category": "Laptop",
+      "price": 1799,
+      "rating": 4.8,
+      "description": "Asus ZenBook Duo comes with dual displays, Intel Core i7, 16GB RAM, and 512GB SSD for multitasking enthusiasts.",
+      "display": "14-inch FHD and 12.6-inch secondary screen",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
     {
-        "_id": "642c155b2c4774f05c36ee84",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
-        "category": "dessert",
-        "price": 14.5
+      "id": "15",
+      "brand": "Gigabyte",
+      "model": "Aorus 17",
+      "category": "Gaming Laptop",
+      "price": 1999,
+      "rating": 4.7,
+      "description": "Gigabyte Aorus 17 with Intel Core i9, 32GB RAM, and NVIDIA RTX 3080 is built for high-end gaming performance.",
+      "display": "17.3-inch FHD",
+      "image": "https://i.ibb.co.com/9Hsw1c5/apple.jpg"
     },
-    {
-        "_id": "642c155b2c4774f05c36eea4",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee87",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee83",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "offered",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7f",
-        "name": "Roasted Pork Belly",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea8",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeba",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "drinks",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee80",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
-        "category": "offered",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee90",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "dessert",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb0",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "soup",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8d",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8e",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee99",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb3",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb6",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb8",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7e",
-        "name": "Fish Parmentier",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8b",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8f",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee91",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "dessert",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee97",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "pizza",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea0",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea9",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee85",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee93",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "pizza",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee95",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
-        "category": "pizza",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9b",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9c",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9d",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeac",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "salad",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb4",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee98",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee82",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "offered",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee86",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9a",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeab",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2017/01/bbq-370x247.jpg",
-        "category": "salad",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb1",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eead",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-4-370x247.jpg",
-        "category": "soup",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeae",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "soup",
-        "price": 10.5
-    }
-]
+      {
+        "id": "16",
+        "brand": "HP",
+        "model": "Omen 15",
+        "category": "Gaming Laptop",
+        "price": 1599,
+        "rating": 4.7,
+        "description": "HP Omen 15 is a gaming powerhouse with AMD Ryzen 7, 16GB RAM, 512GB SSD, and NVIDIA RTX 3060.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "17",
+        "brand": "HP",
+        "model": "Spectre x360",
+        "category": "Laptop",
+        "price": 1599,
+        "rating": 4.7,
+        "description": "HP Spectre x360 features Intel Core i7, 16GB RAM, and a convertible design for productivity and flexibility.",
+        "display": "13.3-inch OLED",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "18",
+        "brand": "HP",
+        "model": "Pavilion 15",
+        "category": "Laptop",
+        "price": 799,
+        "rating": 4.5,
+        "description": "HP Pavilion 15 offers reliable performance with Intel Core i5, 8GB RAM, and 256GB SSD for everyday tasks.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "19",
+        "brand": "HP",
+        "model": "Envy 13",
+        "category": "Laptop",
+        "price": 1199,
+        "rating": 4.6,
+        "description": "HP Envy 13 is an ultra-thin laptop with Intel Core i7, 16GB RAM, and 512GB SSD for smooth multitasking.",
+        "display": "13.3-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "20",
+        "brand": "HP",
+        "model": "EliteBook 840 G8",
+        "category": "Business Laptop",
+        "price": 1499,
+        "rating": 4.8,
+        "description": "HP EliteBook 840 G8 is a business-class laptop with Intel Core i7, 16GB RAM, and 512GB SSD for professionals.",
+        "display": "14-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "21",
+        "brand": "Lenovo",
+        "model": "ThinkPad X1 Carbon",
+        "category": "Business Laptop",
+        "price": 1699,
+        "rating": 4.9,
+        "description": "Lenovo ThinkPad X1 Carbon is a business laptop with Intel Core i7, 16GB RAM, and 1TB SSD for optimal productivity.",
+        "display": "14-inch UHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "22",
+        "brand": "Lenovo",
+        "model": "Yoga 9i",
+        "category": "Convertible Laptop",
+        "price": 1599,
+        "rating": 4.8,
+        "description": "Lenovo Yoga 9i offers a 2-in-1 experience with Intel Core i7, 16GB RAM, and a 512GB SSD for flexibility and power.",
+        "display": "14-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "23",
+        "brand": "Lenovo",
+        "model": "Legion 5",
+        "category": "Gaming Laptop",
+        "price": 1499,
+        "rating": 4.7,
+        "description": "Lenovo Legion 5 is a gaming laptop with AMD Ryzen 7, 16GB RAM, 512GB SSD, and NVIDIA RTX 3060 for high-performance gaming.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "24",
+        "brand": "Lenovo",
+        "model": "IdeaPad Flex 5",
+        "category": "Convertible Laptop",
+        "price": 899,
+        "rating": 4.5,
+        "description": "Lenovo IdeaPad Flex 5 is a budget-friendly convertible laptop with AMD Ryzen 5, 8GB RAM, and a 256GB SSD for everyday tasks.",
+        "display": "14-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "25",
+        "brand": "Lenovo",
+        "model": "ThinkBook 14s Yoga",
+        "category": "Business Laptop",
+        "price": 1299,
+        "rating": 4.6,
+        "description": "Lenovo ThinkBook 14s Yoga is a convertible business laptop with Intel Core i5, 8GB RAM, and 256GB SSD for productivity on the go.",
+        "display": "14-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "26",
+        "brand": "Dell",
+        "model": "XPS 13",
+        "category": "Ultrabook",
+        "price": 1399,
+        "rating": 4.8,
+        "description": "Dell XPS 13 features Intel Core i7, 16GB RAM, and a 512GB SSD, delivering exceptional performance in a sleek design.",
+        "display": "13.4-inch FHD+",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "27",
+        "brand": "Dell",
+        "model": "Inspiron 15",
+        "category": "Laptop",
+        "price": 799,
+        "rating": 4.6,
+        "description": "Dell Inspiron 15 offers a powerful performance with Intel Core i5, 8GB RAM, and a 256GB SSD for everyday tasks.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "28",
+        "brand": "Dell",
+        "model": "Alienware m15 R6",
+        "category": "Gaming Laptop",
+        "price": 1999,
+        "rating": 4.9,
+        "description": "Dell Alienware m15 R6 is built for gamers with Intel Core i7, 16GB RAM, NVIDIA RTX 3070, and 1TB SSD.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "29",
+        "brand": "Dell",
+        "model": "Vostro 15",
+        "category": "Business Laptop",
+        "price": 899,
+        "rating": 4.4,
+        "description": "Dell Vostro 15 provides solid performance with Intel Core i5, 8GB RAM, and 512GB SSD for small business users.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "30",
+        "brand": "Dell",
+        "model": "Latitude 7420",
+        "category": "Business Laptop",
+        "price": 1599,
+        "rating": 4.7,
+        "description": "Dell Latitude 7420 is designed for professionals with Intel Core i7, 16GB RAM, and 1TB SSD, ensuring high productivity.",
+        "display": "14-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "31",
+        "brand": "Asus",
+        "model": "ROG Zephyrus G14",
+        "category": "Gaming Laptop",
+        "price": 1799,
+        "rating": 4.8,
+        "description": "Asus ROG Zephyrus G14 features AMD Ryzen 9, 16GB RAM, and NVIDIA RTX 3060, perfect for high-performance gaming.",
+        "display": "14-inch QHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "32",
+        "brand": "Asus",
+        "model": "ZenBook 14",
+        "category": "Ultrabook",
+        "price": 1299,
+        "rating": 4.7,
+        "description": "Asus ZenBook 14 is a lightweight ultrabook with Intel Core i7, 16GB RAM, and 512GB SSD for on-the-go productivity.",
+        "display": "14-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "33",
+        "brand": "Asus",
+        "model": "VivoBook 15",
+        "category": "Laptop",
+        "price": 699,
+        "rating": 4.5,
+        "description": "Asus VivoBook 15 offers a balanced performance with Intel Core i5, 8GB RAM, and a 256GB SSD for everyday use.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "34",
+        "brand": "Asus",
+        "model": "ROG Strix Scar 15",
+        "category": "Gaming Laptop",
+        "price": 2499,
+        "rating": 4.9,
+        "description": "Asus ROG Strix Scar 15 is a high-end gaming laptop with Intel Core i9, 32GB RAM, and NVIDIA RTX 3080.",
+        "display": "15.6-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      },
+      {
+        "id": "35",
+        "brand": "Asus",
+        "model": "ExpertBook B9",
+        "category": "Business Laptop",
+        "price": 1999,
+        "rating": 4.6,
+        "description": "Asus ExpertBook B9 is designed for professionals with Intel Core i7, 16GB RAM, and a lightweight design for portability.",
+        "display": "14-inch FHD",
+        "image": "https://i.ibb.co/9Hsw1c5/apple.jpg"
+      }            
+    ]
+    

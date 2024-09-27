@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from 'react';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 import MenuProduct from '../../Shared/MenuProduct/MenuProduct';
+import useProducts from '../../../hooks/useProducts';
 
 const PopularProducts = () => {
-    const [products, setProducts]= useState([]);
-    useEffect(()=>{
-        fetch('menu.json')
-        .then(res => res.json())
-        .then(data => {
-            const popularComputer = data.filter(item => item.category === 'popular');
-            // console.log(popularComputer)
-            setProducts(popularComputer)
-        })
-    })
+    const [products] =useProducts()
+    const popularComputer = products.filter(item => item.category === 'Laptop');
     return (
         <section className='mb-12'>
             <SectionTitle
@@ -21,7 +13,7 @@ const PopularProducts = () => {
             ></SectionTitle>
             <div className='grid md:grid-cols-2 gap-10'>
                 {
-                    products.map(item =><MenuProduct key={item._id} item={item}></MenuProduct>)
+                    popularComputer.map(item =><MenuProduct key={item.id} item={item}></MenuProduct>)
                 }
             </div>
         </section>
