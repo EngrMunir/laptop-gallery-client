@@ -9,12 +9,12 @@ import ProductCategory from '../ProductCategory/ProductCategory';
 
 const Products = () => {
     const [products]= useProducts();
-    console.log(products)
+    // console.log(products)
     const hp = products.filter(item => item.brand === 'HP');
-    const Apple = products.filter(item => item.brand === 'Apple');
-    const Dell = products.filter(item => item.brand === 'Dell');
-    const Lenovo = products.filter(item => item.brand === 'Lenovo');
-    const Asus = products.filter(item => item.brand === 'Asus');
+    const apple = products.filter(item => item.brand === 'Apple');
+    const dell = products.filter(item => item.brand === 'Dell');
+    const lenovo = products.filter(item => item.brand === 'Lenovo');
+    const asus = products.filter(item => item.brand === 'Asus');
     return (
         <div className='mb-5'>
             <Helmet>
@@ -25,9 +25,10 @@ const Products = () => {
             <SectionTitle subHeading="Don't miss" heading="HP Products"></SectionTitle>
             <ProductCategory items={hp}></ProductCategory>
             {/*  */}
-            <ProductCategory title="Dell" items={Dell} img={appleImg}></ProductCategory>
-            <ProductCategory title="Lenovo" items={Lenovo} img={appleImg}></ProductCategory>
-            <ProductCategory title="Asus" items={Asus} img={appleImg}></ProductCategory>
+            <ProductCategory title="Dell" items={dell} img={appleImg}></ProductCategory>
+            <ProductCategory title="Lenovo" items={lenovo} img={appleImg}></ProductCategory>
+            <ProductCategory title="Asus" items={asus} img={appleImg}></ProductCategory>
+            <ProductCategory title="Apple" items={apple} img={appleImg}></ProductCategory>
         </div>
     );
 };
