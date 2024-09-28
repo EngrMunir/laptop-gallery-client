@@ -2,6 +2,7 @@ import { useContext, useEffect, useRef, useState } from 'react';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 import { AuthContext } from '../../Providers/AuthProvider';
 import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 const Login = () => {
   const captchaRef = useRef(null);
@@ -22,11 +23,27 @@ const Login = () => {
         signIn(email,password)
         .then(result =>{
           const user = result.user;
-          console.log(user);
+          Swal.fire({
+            title: "User Logged In Successful",
+            showClass: {
+              popup: `
+                animate__animated
+                animate__fadeInUp
+                animate__faster
+              `
+            },
+            hideClass: {
+              popup: `
+                animate__animated
+                animate__fadeOutDown
+                animate__faster
+              `
+            }
+          });
         })
     }
-    const handleValidateCaptcha = () =>{
-      const user_captcha_value = captchaRef.current.value;
+    const handleValidateCaptcha = (e) =>{
+      const user_captcha_value = e.target.value;
       if(validateCaptcha(user_captcha_value)){
         setDisabled(false)
       }else{
@@ -65,15 +82,14 @@ const Login = () => {
                     <label className="label">
                     <LoadCanvasTemplate />
                     </label>
-                    <input type="text" name='captcha' ref={captchaRef} placeholder="type the captcha above" 
+                    <input onBlur={handleValidateCaptcha} type="text" name='captcha' placeholder="type the captcha above" 
                     className="input input-bordered" required />
-                    <button onClick={handleValidateCaptcha} className='btn btn-outline btn-xs mt-2'>Validate</button>
                   </div>
                   <div className="form-control mt-6">
                     <input disabled={disabled} className='btn btn-primary' type="submit" value="Login" />
                   </div>
                 </form>
-                <p><small>New Here? <Link to="/signup">Create a new account</Link></small></p>
+                <p className='text-center'><small>New Here? <Link to="/signup">Create a new account</Link></small></p>
             </div>
           </div>
       </div>
