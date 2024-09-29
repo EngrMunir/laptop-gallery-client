@@ -52,7 +52,7 @@ const SignUp = () => {
         <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="text-center md:w-1/2 lg:text-left">
-                <h1 className="text-5xl font-bold">Login now!</h1>
+                <h1 className="text-5xl font-bold">Register now!</h1>
                 <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                 quasi. In deleniti eaque aut repudiandae et a id nisi.
@@ -99,7 +99,7 @@ const SignUp = () => {
                 <input className='btn btn-primary' type="submit" value="Sign Up" />
               </div>
             </form>
-            <p className="text-center mb-3"><small>Already have account? Please<Link to="/login">Login</Link></small></p>
+            <p className="text-center"><small>Already have account? Please<Link to="/login">Login</Link></small></p>
         </div>
       </div>
   </div>
