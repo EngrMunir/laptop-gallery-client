@@ -1,10 +1,62 @@
 
+import Swal from "sweetalert2";
+import { useLocation, useNavigate } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
+import useAxiosSecure from "../../hooks/useAxiosSecure";
+import useCart from "../../hooks/useCart";
+
 const ProductCard = ({item}) => {
 
-    const {image, price, description, brand }=item;
+    const {image, price, description, brand, _id }=item;
+    const { user } = useAuth();
+    const navigate = useNavigate();
+    const location = useLocation();
+    const axiosSecure = useAxiosSecure();
+    const [,refetch] = useCart();
 
     const handleAddToCart = food =>{
-        console.log(food);
+        if(user && user.email){
+            const cartItem={
+                productId:_id,
+                email: user.email,
+                image,
+                price
+            }
+            axiosSecure.post('/carts',cartItem)
+            .then(res =>{
+                console.log(res.data)
+                if(res.data.insertedId){
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: "This laptop has been added to cart",
+                        showConfirmButton: false,
+                        timer: 1500
+                      });
+                      refetch();
+                }
+            })
+        }
+        else{
+            Swal.fire({
+                title: "You are not Logged In",
+                text: "Login to add to the cart?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, Login!"
+              }).then((result) => {
+                if (result.isConfirmed) {
+                    navigate('/login',{state:{from:location}})
+                //   Swal.fire({
+                //     title: "Deleted!",
+                //     text: "Your file has been deleted.",
+                //     icon: "success"
+                //   });
+                }
+              });
+        }
     }
 
     return (
