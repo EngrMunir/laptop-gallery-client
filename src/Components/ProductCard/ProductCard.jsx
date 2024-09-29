@@ -21,7 +21,8 @@ const ProductCard = ({item}) => {
                 email: user.email,
                 image,
                 price,
-                brand
+                brand,
+                status:'pending'
             }
             axiosSecure.post('/carts',cartItem)
             .then(res =>{

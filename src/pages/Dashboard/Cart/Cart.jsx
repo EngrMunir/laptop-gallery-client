@@ -50,6 +50,7 @@ const Cart = () => {
                     <th>Image</th>
                     <th>Brand</th>
                     <th>Price</th>
+                    <th>Status</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -69,7 +70,8 @@ const Cart = () => {
                             </div>
                         </td>
                         <td>{item.brand}</td>
-                        <td>{item.price}</td>
+                        <td>${item.price}</td>
+                        <td>{item.status}</td>
                         <th>
                         <button onClick={()=>handleDelete(item._id)} className="btn btn-ghost btn-lg"><FaTrash className="text-red-500"></FaTrash></button>
                         </th>
