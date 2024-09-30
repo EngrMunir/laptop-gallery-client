@@ -1,12 +1,35 @@
 import { FaEdit, FaTrash } from "react-icons/fa";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import useProducts from "../../../hooks/useProducts";
+import Swal from "sweetalert2";
+import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 const ManageProducts = () => {
-    const [products] = useProducts();
+    const [products,,refetch] = useProducts();
+    const axiosSecure = useAxiosSecure();
 
-    const handleDelete = id =>{
-        console.log(id)
+    const handleDelete = item =>{
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+          }).then(async(result) => {
+            if (result.isConfirmed) {
+                const res = await axiosSecure.delete(`/product/${item._id}`)
+                if(res.data.deletedCount > 0){
+                    refetch();
+                    Swal.fire({
+                        title: "Deleted!",
+                        text: `${item.name} has been deleted`,
+                        icon: "success"
+                      });
+                }
+            }
+          });
     }
 
     return (
@@ -41,9 +64,9 @@ const ManageProducts = () => {
                             </td>
                             <td>{item.name}</td>
                             <td>{item.price}</td>
-                            <td><FaEdit></FaEdit> </td>
+                            <td><button className="btn btn-ghost bg-orange-500"><FaEdit className="text-white"></FaEdit> </button></td>
                             <td>
-                                <button onClick={()=>handleDelete(item._id)} className="btn btn-ghost"><FaTrash className="text-red-600"></FaTrash></button>
+                                <button onClick={()=>handleDelete(item)} className="btn btn-ghost btn-lg"><FaTrash className="text-red-600"></FaTrash></button>
                             </td>
                         </tr>)
                     } 
