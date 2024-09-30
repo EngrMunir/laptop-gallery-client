@@ -2,12 +2,13 @@ import { useForm } from "react-hook-form";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import useAxiosPublic from "../../../hooks/useAxiosPublic";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import Swal from "sweetalert2";
 
 const image_hosting_key=import.meta.env.VITE_IMAGE_HOSTING_KEY;
 const image_hosting_api=`https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
 
 const AddProducts = () => {
-    const { register, handleSubmit, formState: { errors }, } = useForm();
+    const { register, handleSubmit,reset, formState: { errors }, } = useForm();
     const axiosPublic = useAxiosPublic();
     const axiosSecure = useAxiosSecure();
     
@@ -39,9 +40,15 @@ const AddProducts = () => {
                 image: res.data.data.display_url
             }
             const productRes= await axiosSecure.post('/product',productInfo);
-            console.log(productRes.data)
+            reset();
             if(productRes.data.insertedId){
-                
+                Swal.fire({
+                    position: "top-end",
+                    icon: "success",
+                    title: `${data.name} has been saved`,
+                    showConfirmButton: false,
+                    timer: 1500
+                  });
             }
         }
     }
