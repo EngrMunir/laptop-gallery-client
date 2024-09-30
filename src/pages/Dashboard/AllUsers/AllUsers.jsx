@@ -7,7 +7,7 @@ const AllUsers = () => {
     const {data: users =[], refetch }= useQuery({
         queryKey:['users'],
         queryFn: async () =>{
-            const res = await axiosSecure.get('users');
+            const res = await axiosSecure.get('/users');
             return res.data;
         }
     })
@@ -91,7 +91,7 @@ const AllUsers = () => {
                         <td>
                             {
                                 user.role ==='admin'? 'Admin':<button onClick={()=>handleMakeAdmin(user)} 
-                                className="btn btn-lg bg-orange-500">
+                                className="btn bg-orange-500">
                                     <FaUsers className="text-white text-2xl"></FaUsers>
                                 </button>
                             }
