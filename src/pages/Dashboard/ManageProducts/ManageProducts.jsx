@@ -3,6 +3,7 @@ import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import useProducts from "../../../hooks/useProducts";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import { Link } from "react-router-dom";
 
 const ManageProducts = () => {
     const [products,,refetch] = useProducts();
@@ -64,7 +65,13 @@ const ManageProducts = () => {
                             </td>
                             <td>{item.name}</td>
                             <td>{item.price}</td>
-                            <td><button className="btn btn-ghost bg-orange-500"><FaEdit className="text-white"></FaEdit> </button></td>
+                            <td>
+                                <Link to={`/dashboard/updateProduct/${item._id}`}>
+                                    <button className="btn btn-ghost bg-orange-500">
+                                        <FaEdit className="text-white"></FaEdit> 
+                                    </button>
+                                </Link>
+                            </td>
                             <td>
                                 <button onClick={()=>handleDelete(item)} className="btn btn-ghost btn-lg"><FaTrash className="text-red-600"></FaTrash></button>
                             </td>

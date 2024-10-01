@@ -13,6 +13,8 @@ import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
 import AddProducts from "../pages/Dashboard/AddProducts/AddProducts";
 import AdminRoute from "./AdminRoute";
 import ManageProducts from "../pages/Dashboard/ManageProducts/ManageProducts";
+import UpdateProduct from "../pages/Dashboard/UpdateProduct/UpdateProduct";
+import Payment from "../pages/Dashboard/Payment/Payment";
 
 export const router = createBrowserRouter([
     {
@@ -54,6 +56,10 @@ export const router = createBrowserRouter([
                 path:'cart',
                 element:<Cart></Cart>
             },
+            {
+                path:'payment',
+                element:<Payment></Payment>
+            },
             // admin routes
             {
                 path:'addProducts',
@@ -62,6 +68,11 @@ export const router = createBrowserRouter([
             {
                 path:'users',
                 element:<AllUsers></AllUsers>
+            },
+            {
+                path:'updateProduct/:id',
+                element:<AdminRoute><UpdateProduct></UpdateProduct></AdminRoute>,
+                loader: ({params})=>fetch(`http://localhost:5000/product/${params.id}`)
             },
             {
                 path:'manageProducts',
