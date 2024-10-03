@@ -35,7 +35,7 @@ const ManageProducts = () => {
 
     return (
         <div>
-            <SectionTitle heading="Manage Products" subHeading="Hurry up"></SectionTitle>
+            {/* <SectionTitle heading="Manage Products" subHeading="Hurry up"></SectionTitle> */}
             <div>
             <div className="overflow-x-auto">
                 <table className="table">

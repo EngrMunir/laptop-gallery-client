@@ -1,5 +1,5 @@
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
-import featuredImg from '../../../assets/home/featured.jpg';
+import featuredImg from '../../../assets/home/featured.png';
 import './featured.css'
 
 const Featured = () => {

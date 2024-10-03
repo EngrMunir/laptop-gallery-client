@@ -1,8 +1,12 @@
 import { Helmet } from 'react-helmet-async'
 import useProducts from '../../../hooks/useProducts';
 import Covered from '../../Shared/Covered/Covered';
-import img from '../../../assets/menu/menu-bg.png'
-import appleImg from '../../../assets/menu/dessert-bg.jpeg'
+import img from '../../../assets/menu/cover1.jpeg'
+import appleImg from '../../../assets/menu/apple.jpg'
+import hpImg from '../../../assets/menu/hp.jpg'
+import lenovoImg from '../../../assets/menu/lenovo.jpg'
+import dellImg from '../../../assets/menu/dell.jpg'
+import asusImg from '../../../assets/menu/asus.jpg'
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 import ProductCategory from '../ProductCategory/ProductCategory';
 
@@ -25,9 +29,9 @@ const Products = () => {
             <SectionTitle subHeading="Don't miss" heading="HP Products"></SectionTitle>
             <ProductCategory items={hp}></ProductCategory>
             {/*  */}
-            <ProductCategory title="Dell" items={dell} img={appleImg}></ProductCategory>
-            <ProductCategory title="Lenovo" items={lenovo} img={appleImg}></ProductCategory>
-            <ProductCategory title="Asus" items={asus} img={appleImg}></ProductCategory>
+            <ProductCategory title="Dell" items={dell} img={dellImg}></ProductCategory>
+            <ProductCategory title="Lenovo" items={lenovo} img={lenovoImg}></ProductCategory>
+            <ProductCategory title="Asus" items={asus} img={asusImg}></ProductCategory>
             <ProductCategory title="Apple" items={apple} img={appleImg}></ProductCategory>
         </div>
     );

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import orderCover from '../../../assets/shop/banner2.jpg'
+import orderCover from '../../../assets/menu/cover2.png'
 import Covered from '../../Shared/Covered/Covered';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -23,7 +23,7 @@ const Order = () => {
     const Asus = products.filter(item => item.brand === 'Asus');
 
     return (
-        <div>
+        <div className='mb-5'>
             <Helmet>
                 <title>Digital | Order Products</title>
             </Helmet>

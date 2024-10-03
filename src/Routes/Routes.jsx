@@ -87,7 +87,7 @@ export const router = createBrowserRouter([
             {
                 path:'updateProduct/:id',
                 element:<AdminRoute><UpdateProduct></UpdateProduct></AdminRoute>,
-                loader: ({params})=>fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({params})=>fetch(`https://laptop-gallery-server.vercel.app/product/${params.id}`)
             },
             {
                 path:'manageProducts',

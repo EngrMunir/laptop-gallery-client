@@ -4,11 +4,11 @@ import useProducts from '../../../hooks/useProducts';
 
 const PopularProducts = () => {
     const [products] =useProducts()
-    const popularComputer = products.filter(item => item.category === 'Laptop');
+    const popularComputer = products.filter(item => item.category === 'popular');
     return (
         <section className='mb-12'>
             <SectionTitle
-                heading="From our collections"
+                heading="Popular Products"
                 subHeading="Popular Products"
             ></SectionTitle>
             <div className='grid md:grid-cols-2 gap-10'>

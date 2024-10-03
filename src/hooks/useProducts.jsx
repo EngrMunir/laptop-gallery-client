@@ -9,7 +9,7 @@ const useProducts = () => {
     // const [loading, setLoading] = useState(true);
 
     // useEffect(()=>{
-    //     fetch('http://localhost:5000/product')
+    //     fetch('https://laptop-gallery-server.vercel.app/product')
     //     .then(res =>res.json())
     //     .then(data =>{
     //         setProducts(data);
