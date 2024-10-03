@@ -151,7 +151,6 @@ const pieChartData = chartData.map(data =>{
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
-          <Legend></Legend>
         </PieChart>
                 </div>
             </div>
